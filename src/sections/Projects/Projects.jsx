@@ -1,10 +1,11 @@
 import React from "react";
 import styles from "./ProjectsStyles.module.css";
-import Viberr from "../../assets/viberr.png";
-import Tetris from "../../assets/Tetris.jpg"
+import Tetris from "../../assets/Tetris.jpg";
 import ProjectCard from "../../common/ProjectCard";
-import freshBurger from "../../assets/fresh-burger.png";
 import Flappy from "../../assets/Flappy Bird.png";
+import TwentyFour from "../../assets/2048.png";
+import Budget from "../../assets/budget.png";
+
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
@@ -25,17 +26,17 @@ function Projects() {
         />
 
         <ProjectCard
-          src={Viberr}
-          link={"https://github.com/Dan-Nicolas/FlappyBird"}
-          h3={"AI Plays Flappy Bird"}
-          p={"Game"}
+          src={TwentyFour}
+          link={"https://github.com/Dan-Nicolas/2048"}
+          h3={"2048"}
+          p={"Classic Game of 2048"}
         />
 
         <ProjectCard
-          src={Viberr}
-          link={"https://github.com/Dan-Nicolas/FlappyBird"}
-          h3={"AI Plays Flappy Bird"}
-          p={"Game"}
+          src={Budget}
+          link={"https://github.com/Dan-Nicolas/Personal-Finance-Tracker"}
+          h3={"Personal Finance Tracker"}
+          p={"Track Expenses and Income"}
         />
       </div>
     </section>
