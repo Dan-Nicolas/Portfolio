@@ -6,7 +6,8 @@ import LightLinkedIn from "../../assets/linkedin-light.svg";
 import DarkLinkedIn from "../../assets/linkedin-dark.svg";
 import LightGithub from "../../assets/github-light.svg";
 import DarkGithub from "../../assets/github-dark.svg";
-import CV from "../../assets/cv.pdf";
+import DarkInstagram from "../../assets/instagram-dark.svg";
+import Resume from "../../assets/Resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -15,7 +16,7 @@ function Hero() {
   const themeIcon = theme === "light" ? sun : moon;
   const LinkedInIcon = theme === "light" ? LightLinkedIn : DarkLinkedIn;
   const GitHubIcon = theme === "light" ? LightGithub : DarkGithub;
-
+  const InstagramIcon = theme === "light" ? LightGithub : DarkInstagram;
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
@@ -50,7 +51,7 @@ function Hero() {
             href="https://www.linkedin.com/in/daniel-nicolas-337595246/"
             target="_blank"
           >
-            <img src={LinkedInIcon} alt="LinkedIn Icon" />
+            <img src={InstagramIcon} alt="LinkedIn Icon" />
           </a>
         </span>
         <p className={styles.description}>
@@ -60,7 +61,7 @@ function Hero() {
           coding, problem-solving, and backend development to the tech industry.
         </p>
 
-        <a href={CV} download>
+        <a href={Resume} download>
           <button className="hover">Resume</button>
         </a>
       </div>
