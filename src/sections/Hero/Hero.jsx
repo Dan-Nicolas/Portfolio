@@ -6,6 +6,7 @@ import LightLinkedIn from "../../assets/linkedin-light.svg";
 import DarkLinkedIn from "../../assets/linkedin-dark.svg";
 import LightGithub from "../../assets/github-light.svg";
 import DarkGithub from "../../assets/github-dark.svg";
+import LightInstagram from "../../assets/instagram-light.svg";
 import DarkInstagram from "../../assets/instagram-dark.svg";
 import Resume from "../../assets/Resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
@@ -16,7 +17,7 @@ function Hero() {
   const themeIcon = theme === "light" ? sun : moon;
   const LinkedInIcon = theme === "light" ? LightLinkedIn : DarkLinkedIn;
   const GitHubIcon = theme === "light" ? LightGithub : DarkGithub;
-  const InstagramIcon = theme === "light" ? LightGithub : DarkInstagram;
+  const InstagramIcon = theme === "light" ? LightInstagram : DarkInstagram;
   return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
@@ -48,10 +49,10 @@ function Hero() {
             <img src={GitHubIcon} alt="GitHub Icon" />
           </a>
           <a
-            href="https://www.linkedin.com/in/daniel-nicolas-337595246/"
+            href="https://www.instagram.com/dan_.nicolas?igsh=a3RrbjMwYTZvemJ5&utm_source=qr"
             target="_blank"
           >
-            <img src={InstagramIcon} alt="LinkedIn Icon" />
+            <img src={InstagramIcon} alt="Instagram Icon" />
           </a>
         </span>
         <p className={styles.description}>
