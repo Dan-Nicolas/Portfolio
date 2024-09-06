@@ -22,7 +22,7 @@ function Projects() {
           src={Flappy}
           link={"https://github.com/Dan-Nicolas/FlappyBird"}
           h3={"AI Plays Flappy Bird"}
-          p={"Game"}
+          p={"AI learns to play"}
         />
 
         <ProjectCard
