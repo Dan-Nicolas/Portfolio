@@ -4,7 +4,7 @@ import Tetris from "../../assets/Tetris.jpg";
 import ProjectCard from "../../common/ProjectCard";
 import Flappy from "../../assets/Flappy Bird.png";
 import TwentyFour from "../../assets/2048.png";
-import ISS from "../../assets/iss.jpg;"
+import ISS from "../../assets/iss.jpg";
 import Budget from "../../assets/budget.png";
 
 function Projects() {
