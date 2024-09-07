@@ -4,6 +4,7 @@ import Tetris from "../../assets/Tetris.jpg";
 import ProjectCard from "../../common/ProjectCard";
 import Flappy from "../../assets/Flappy Bird.png";
 import TwentyFour from "../../assets/2048.png";
+import ISS from "../../assets/iss.jpg;"
 import Budget from "../../assets/budget.png";
 
 function Projects() {
@@ -30,6 +31,13 @@ function Projects() {
           link={"https://github.com/Dan-Nicolas/2048"}
           h3={"2048"}
           p={"Classic Game of 2048"}
+        />
+
+        <ProjectCard
+          src={ISS}
+          link={"https://github.com/Dan-Nicolas/Where-is-the-ISS"}
+          h3={"Where is the ISS?"}
+          p={"ISS Tracker"}
         />
 
         <ProjectCard
