@@ -8,7 +8,7 @@ import LightGithub from "../../assets/github-light.svg";
 import DarkGithub from "../../assets/github-dark.svg";
 import LightInstagram from "../../assets/instagram-light.svg";
 import DarkInstagram from "../../assets/instagram-dark.svg";
-import Resume from "../../assets/Resume1.pdf";
+import Resume from "../../assets/cv-D4NMZrO6.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
